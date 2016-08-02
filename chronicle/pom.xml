@@ -58,6 +58,10 @@ LICENSE file.
   <dependencies>
     <dependency>
       <groupId>net.openhft</groupId>
+      <artifactId>chronicle-queue</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>net.openhft</groupId>
       <artifactId>chronicle-map</artifactId>
       <version>3.9.2-SNAPSHOT</version>
     </dependency>
@@ -67,6 +71,12 @@ LICENSE file.
       <artifactId>core</artifactId>
       <version>${project.version}</version>
       <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 </project>

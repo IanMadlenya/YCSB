@@ -99,7 +99,7 @@ import java.util.*;
  *
  * See {@code chronicle/README.adoc} for details.
  */
-public class ChronicleClient extends DB {
+public class ChronicleMapClient extends DB {
 
   public static final String[] NO_STRINGS = {};
   static final StringBuilderPool SBP = new StringBuilderPool();
